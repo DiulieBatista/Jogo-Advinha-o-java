@@ -1,0 +1,48 @@
+#mediaImage {
+    width: 650px;
+    height: 150px; /* Altura reduzida para mostrar a imagem cortada */
+    object-fit: cover; /* Ajusta a imagem dentro da área */
+    object-position: top; /* Mostra o topo da imagem inicialmente */
+    transition: height 0.5s ease; /* Animação ao mostrar a imagem completa */
+    
+    }
+    /*   comando usado para mudar a cor do titulo e colocar centralizado   */
+    h1{
+        font-weight: bolder;
+        font-size: x-large;
+        text-align: center;
+        color: rgb(149, 9, 241);
+    
+    }
+
+    /* comando ultilizado para mudar a cor de fundo  e adicionar imagem de fundo  */
+body{
+background-image: url(img/fundo.png) ;
+background-repeat: no-repeat;
+border-right-color: rgb(111, 147, 168);
+background-size: cover;
+}
+ 
+/* mudar a cor do texto dos botoes */
+button {
+color: rgb(111, 26, 190);
+font-weight: bolder;
+font-size: larger;
+text-align: center;
+background-color: aquamarine;
+
+}
+
+main{
+max-width: 700px;
+margin: 0 auto;
+}
+
+.cor{
+
+    color: rgb(238, 5, 5);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+}
